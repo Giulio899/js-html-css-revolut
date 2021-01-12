@@ -115,9 +115,7 @@ header nav .nav-right {
   flex-grow: 1;
 }
 
-header nav .nav-right li:nth-child(6) {
-  margin-right: 50px;
-}
+
 
 header nav .nav-right li ul {
   visibility: hidden;
@@ -144,6 +142,11 @@ header nav .nav-right li:hover ul li:hover {
   background-color: #222;
   cursor: pointer;
   transition: all .3s;
+}
+
+
+header nav .nav-right #lingue {
+  margin-right: 30px;
 }
 
 /* header nav .nav-right li:hover ul {
