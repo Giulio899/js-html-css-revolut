@@ -1,19 +1,29 @@
 $(document).ready(function() {
 
   $('.navbar-right ul li').hover(function() {
-    $(this).children('ul').removeClass('hidden');
-  }, function() {
-    $(this).children('ul').addClass('hidden');
+    $(this).children('ul').toggleClass('hidden');
   });
 
 });
+
+
+// METODO CON REMOVECLASS E ADDCLASS
+
+// $(document).ready(function() {
+//
+//   $('.navbar-right ul li').hover(function() {
+//     $(this).children('ul').removeClass('hidden');
+//   }, function() {
+//     $(this).children('ul').addClass('hidden');
+//   });
+//
+// });
 
 
 
 
 
 // METODO PIU' LUNGO QUINDI MENO EFFICIENTE (avevo dato delle classi id a ciascun li)
-
 
 // $(document).ready(function() {
 //
